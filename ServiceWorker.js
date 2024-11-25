@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-OrganizeItems-0.1";
 const contentToCache = [
     "Build/bb0d9ecdb05db3e84da20bd14a4f84dc.loader.js",
-    "Build/b88a05817a16c732f4b8fe77cc087f23.framework.js",
-    "Build/032eba58c6bed6e6ed98476e9d75a614.data",
-    "Build/99e2d2a4e82f24dc594bcdbcca491932.wasm",
+    "Build/71d0926ec5ef4d9c8c0afb280bc467f3.framework.js",
+    "Build/66612fa5c8bda0c45d8959c2ed541753.data",
+    "Build/ae6402bc5837cb284223f4c1dd3d1f2e.wasm",
     "TemplateData/style.css"
 
 ];
