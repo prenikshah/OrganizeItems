@@ -1,9 +1,9 @@
-const cacheName = "GamingOverclock -OrganizeItems-0.1";
+const cacheName = "DefaultCompany-OrganizeItems-1.0";
 const contentToCache = [
-    "Build/9d46d02a0061bb846466b8b8484ed059.loader.js",
-    "Build/c41618d2a05555c61e7f40cd12e422c6.framework.js",
-    "Build/ab0c021a5863bd1a2f1b1087b7562e6e.data",
-    "Build/60d91534057c743babfd6e7cdc3ad347.wasm",
+    "Build/2cd8a7782388d5b84e172d43679d1406.loader.js",
+    "Build/cc48a754ca17ba7b80f9c4fe3c5a1544.framework.js",
+    "Build/48d033ebbeb672ba326d6f2197ec3e2d.data",
+    "Build/09bb600d3aca31eeda63e9c4734225b6.wasm",
     "TemplateData/style.css"
 
 ];
