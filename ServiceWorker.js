@@ -2,7 +2,7 @@ const cacheName = "psgaming09-OrganizeItems-1.0";
 const contentToCache = [
     "Build/68fd946c58f9589c4c0e60682c309126.loader.js",
     "Build/4049226985604ca7746b19bef3c95a12.framework.js",
-    "Build/f2e9ddc605ec63d8a408cb9365ac1b23.data",
+    "Build/c3a93884a4259897d482ec0fcea37a98.data",
     "Build/7cf8573daff8d02ef18b3bfb4e970cb2.wasm",
     "TemplateData/style.css"
 
