@@ -9,15 +9,14 @@
     <link rel="manifest" href="manifest.webmanifest">
 
     <!-- Google Tag Manager -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WBCT7LP7BB"></script>
     <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'G-1JTNJN91NH');
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-WBCT7LP7BB');
     </script>
     <!-- End Google Tag Manager -->
 
@@ -46,12 +45,7 @@
         </div>
         <div id="unity-warning"> </div>
     </div>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=G-1JTNJN91NH"
-                height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
+    
     <script>
       window.addEventListener("load", function () {
         if ("serviceWorker" in navigator) {
@@ -90,12 +84,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/2b2f20f9e6e38dc1f126847bc44667e3.loader.js";
+      var loaderUrl = buildUrl + "/86a6b753ef93034def206d78a9dc53fb.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/d7e9edb10281934af499b1f85d09b2b8.data",
+        dataUrl: buildUrl + "/3bcc25a1cf31df52e7e893aab4d16919.data",
         frameworkUrl: buildUrl + "/38b0dbafca586f9236fce42d04ef6983.framework.js",
-        codeUrl: buildUrl + "/8649c26c57a0327755fbb221c846898f.wasm",
+        codeUrl: buildUrl + "/6df089459da5a9e9a3d4e0cac1e011f0.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "psgaming09",
         productName: "OrganizeItems",
