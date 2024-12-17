@@ -1,24 +1,57 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity Web Player | OrganizeItems</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
-  </head>
-  <body>
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'G-1JTNJN91NH');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script>
+        // Initialize dataLayer
+        window.dataLayer = window.dataLayer || [];
+
+        // Function to push events to the dataLayer
+        function pushToDataLayer(eventName) {
+            window.dataLayer.push({ test_3d: null });
+            window.dataLayer.push({ event: eventName });
+            console.log(`Event pushed: ${eventName}`);
+        }
+    </script>
+
+
+</head>
+<body>
     <div id="unity-container">
-      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
-      <div id="unity-loading-bar">
-        <div id="unity-logo"></div>
-        <div id="unity-progress-bar-empty">
-          <div id="unity-progress-bar-full"></div>
+        <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+        <div id="unity-loading-bar">
+            <div id="unity-logo"></div>
+            <div id="unity-progress-bar-empty">
+                <div id="unity-progress-bar-full"></div>
+            </div>
         </div>
-      </div>
-      <div id="unity-warning"> </div>
+        <div id="unity-warning"> </div>
     </div>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=G-1JTNJN91NH"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <script>
       window.addEventListener("load", function () {
         if ("serviceWorker" in navigator) {
@@ -57,12 +90,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/68fd946c58f9589c4c0e60682c309126.loader.js";
+      var loaderUrl = buildUrl + "/2b2f20f9e6e38dc1f126847bc44667e3.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/b209290ee7159685ab7da4f3f21254cb.data",
-        frameworkUrl: buildUrl + "/4049226985604ca7746b19bef3c95a12.framework.js",
-        codeUrl: buildUrl + "/7cf8573daff8d02ef18b3bfb4e970cb2.wasm",
+        dataUrl: buildUrl + "/d7e9edb10281934af499b1f85d09b2b8.data",
+        frameworkUrl: buildUrl + "/38b0dbafca586f9236fce42d04ef6983.framework.js",
+        codeUrl: buildUrl + "/8649c26c57a0327755fbb221c846898f.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "psgaming09",
         productName: "OrganizeItems",
@@ -100,5 +133,5 @@
       };
       document.body.appendChild(script);
     </script>
-  </body>
+</body>
 </html>
